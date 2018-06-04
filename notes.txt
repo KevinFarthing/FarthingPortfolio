@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "commit X"
+git remote add origin "yoururl.com"
+git pish origin master
+
