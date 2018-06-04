@@ -4,3 +4,8 @@ git commit -m "commit X"
 git remote add origin "yoururl.com"
 git pish origin master
 
+conda create --name [] python
+conda activate prework
+conda env list
+conda list
+conda install jupyter notebook
