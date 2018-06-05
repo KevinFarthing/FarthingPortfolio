@@ -1,3 +1,4 @@
+GIT
 git init
 git add .
 git commit -m "commit X"
@@ -10,8 +11,46 @@ lookup
 reset
 merge
 
+VSC shortcuts
+ctrl shift d - duplicate line
+ctrl shift k - kill line
+
+ANACONDA
 conda create --name [env name] python
 conda activate [env name]
 conda env list
 conda list
 conda install jupyter notebook
+
+HTML
+html4 to 5 only change is the canvas tag and semantic tag
+metadata-instructions for the computer
+./ to initiate filepath, not just /
+../ initiates if you're starting with up one level
+
+html loads top-down so stick javascript on the bottom so any script that affects the body will bork up if you have it at the top and it laods before your elements
+
+>DOM
+margin>border>padding>element
+
+CSS
+saved in a single location referred to as assets
+
+FLASK
+
+BOOTSTRAP
+CDN=Content Delivery System
+Grid system - 12 columns
+general use - main div then a container class, column designations, then rows
+
+shortcuts, baby
+.col-md04*4>.img-responsive>img and then you hit tab
+
+bootstraps own javascript controls the dropdown
+bootstraps java is based on jquery, so you have to load jquery BEFORE bootstrap js
+
+Root Folder-the big one
+Children Folders
+
+MISC
+templates from themeforce.net
