@@ -4,6 +4,12 @@ git commit -m "commit X"
 git remote add origin "yoururl.com"
 git push origin master
 
+extras
+checkout
+lookup
+reset
+merge
+
 conda create --name [env name] python
 conda activate [env name]
 conda env list
