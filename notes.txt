@@ -30,11 +30,35 @@ metadata-instructions for the computer
 
 html loads top-down so stick javascript on the bottom so any script that affects the body will bork up if you have it at the top and it laods before your elements
 
+CRUD
+create
+read
+update
+delete
+
+Server status Codes
+101 - switching protocols
+200 - OK
+304 - connected but static(
+400 series is YOUR FAULT
+400 - bad request
+401 - user authentication similar to 403 but when authentication has failed or not been required
+403 - (Forbidden, accessing admin shit without permission)
+404
+NOT YOUR FAULT
+500 - internal server error
+
 >DOM
 margin>border>padding>element
 
 CSS
 saved in a single location referred to as assets
+
+div, p {} flags all div AND p tags in the document
+div p {} ONLY select p tags inside the listed div tag (may be same as div>p {})
+div+p {} flags all p elements placed after divs
+p ~ ul {}4
+
 
 FLASK
 
@@ -45,6 +69,7 @@ general use - main div then a container class, column designations, then rows
 
 shortcuts, baby
 .col-md04*4>.img-responsive>img and then you hit tab
+.whatever creates a class, #whatever creates an id. exactly like css
 
 bootstraps own javascript controls the dropdown
 bootstraps java is based on jquery, so you have to load jquery BEFORE bootstrap js
