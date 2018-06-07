@@ -1,0 +1,102 @@
+#amazon-logo {
+    height: 50px;
+    margin: 20px;
+}
+
+.form{
+    border: solid 1px;
+    border-radius: .5em;
+    border-color: #DDDDDD;
+    padding:  10px 30px;
+}
+
+.details {
+    /* display:flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* ^^^NOT WORKING LIKE YOU THOUGHT, TARGET SEEMS TO USE PADDING ANYWAY */
+    padding: .5em 2em;
+    text-align: center;
+    font-size: .75em;
+}
+
+.details a {
+    padding: 0 1em;
+}
+
+.signature p{
+    font-size: .75em;
+    text-align: center;
+}
+
+/*     <!-- top color FAECC8 bottom color F0C14C border color F0C14C --> */
+#continue {
+    background: linear-gradient(#FAEBC8, #F0C350);
+    border: 1px solid #846A29;
+}
+
+#continue:hover {
+    background: linear-gradient(rgb(255, 226, 158), rgb(236, 185, 54));
+}
+
+/* <!-- top color F0C14C bottom color F0C14C border color ADB1B8 --> */
+#create_account {
+    background: linear-gradient(#FCFCFD, #E7E9EC);
+    border: 1px solid #ADB1B8;
+}
+
+#create_account:hover {
+    background: linear-gradient(rgb(196, 196, 196), rgb(185, 187, 189));
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding: 2em 0;
+    margin-bottom: 14px;
+    line-height: 0;
+}
+
+.divider:after {
+    content: "";
+    /* necessary for line to appear */
+    width: 100%;
+    /* necessary for line to appear-presumably without it's too small to see */
+    /* background-color: transparent; */
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.divider h5 {
+    /* line-height: 1; */
+    /* font-size: 12px; */
+    /* color: #767676; */
+    /* font-weight: 400; */
+    z-index: 2;
+    /* ^^^necessary for line to break around text^^^ */
+    position: relative;
+    /* ^^^necessary for line to break around text^^^ */
+    display: inline-block;
+    /* necessary for line to appear */
+    background-color: #fff;
+    /* causes the background that blocks the line */
+    /* padding: 0 8px 0 7px; */
+}
+
+#help-button:hover{
+    color: rgb(240, 186, 51);
+    text-decoration: underline;
+    text-decoration-color : rgb(240, 186, 51);
+}
+
+/* #help-button{
+        text-decoration-color: rgb(240, 186, 51);
+} */
