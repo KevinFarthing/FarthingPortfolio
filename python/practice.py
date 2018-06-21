@@ -28,10 +28,10 @@ class EggGame:
                     print("[0]", end="")
                 elif self.grid[row][col] == self.monster:
                     print("[X]", end="")
-                elif self.grid[row][col]== self.door:
-                    print("[D]", end="")
                 elif self.grid[row][col] == tuple(self.hero):
                     print("[H]", end="")
+                elif self.grid[row][col]== self.door:
+                    print("[D]", end="")
                 else:
                     print(f"[_]", end="")
             print('\n')
